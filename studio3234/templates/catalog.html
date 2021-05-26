@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог - Парикмахерская "32/34 Studio"</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap"/>
+    <link href="static/css/normalize.css" rel="stylesheet" />
+    <link href="static/css/style.css" rel="stylesheet" />
+</head>
+
+<body class="page-body inner-page">
+    <header class="main-header">
+        <nav class="main-navigation container">
+            <a class="main-header-logo" href="/">
+                <img src="static/img/3234%20Studio.png" width="111" height="24" alt="Логотип парикмахерской 32/34 Studio">
+            </a>
+            <ul class="site-navigation">
+                <li><a href="info.html">Информация</a></li>
+                 <li><a href="news.html">Новости</a></li>
+                 <li><a href="price.html">Прайс-лист</a></li>
+                 <li class="site-navigation-current">
+                     <a href="catalog.html">Магазин</a>
+                 </li>
+                 <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="user-navigation">
+                <a class="login-link" href="login.html">Вход</a>
+            </div>
+        </nav>
+     </header>
+
+    <main class="page-catalog container">
+        <h1 class="page-title">Средства для ухода</h1>
+        <ul class="breadcrumbs">
+            <li>
+                <a href="index.html">Главная</a>
+            </li>
+            <li>
+                <a href="catalog.html">Магазин</a>
+            </li>
+            <li class="breadcrumbs-current">
+                Средства для ухода
+            </li>
+        </ul>
+
+        <section class="filters">
+            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <form class="filter" method="get">
+<!--                <fieldset>-->
+<!--                    <legend>Производители:</legend>-->
+<!--                    <ul>-->
+<!--                      <li class="filter-option filter-radio">-->
+<!--                        <input class="visually-hidden filter-input-radio filter-input" type="radio" name="baxter-of-california" id="filter-baxter-of-california" checked/>-->
+<!--                        <label for="filter-baxter-of-california">CP-1</label>-->
+<!--                      </li>-->
+<!--                      <li class="filter-option filter-radio">-->
+<!--                        <input class="visually-hidden filter-input-radio filter-input" type="radio" name="mr-natty" id="filter-mr-natty"/>-->
+<!--                        <label for="filter-mr-natty">Mr.Natty</label>-->
+<!--                      </li>-->
+<!--                      <li class="filter-option filter-checkbox">-->
+<!--                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="suavecito" id="filter-suavecito" checked/>-->
+<!--                        <label for="filter-suavecito">Borodist</label>-->
+<!--                      </li>-->
+<!--                      <li class="filter-option filter-checkbox">-->
+<!--                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="malin-goetz" id="filter-malin-goetz"/>-->
+<!--                        <label for="filter-malin-goetz">Malin-Goetz</label>-->
+<!--                      </li>-->
+<!--                      <li class="filter-option filter-checkbox">-->
+<!--                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="murrays" id="filter-murrays"/>-->
+<!--                        <label for="filter-murrays">Murrays</label>-->
+<!--                      </li>-->
+<!--                      <li class="filter-option filter-checkbox">-->
+<!--                        <input class="visually-hidden filter-input-checkbox filter-input" type="checkbox" name="american-crew" id="filter-american-crew" checked/>-->
+<!--                        <label for="filter-american-crew">BARBARO</label>-->
+<!--                      </li>-->
+<!--                    </ul>-->
+<!--                </fieldset>-->
+                <fieldset>
+                    <legend>Группы товаров:</legend>
+                    <ul>
+                      <li class="filter-option filter-radio">
+                        <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="shaving" id="filter-shave"/>
+                        <label for="filter-shave">Подарочные наборы</label>
+                      </li>
+                      <li class="filter-option filter-radio">
+                        <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="hair-care" id="filter-care" checked/>
+                        <label for="filter-care">Средства для ухода</label>
+                      </li>
+                      <li class="filter-option filter-radio">
+                        <input class="visually-hidden filter-input-radio filter-input" type="radio" name="product-group" value="accessories" id="filter-accessories"/>
+                        <label for="filter-accessories">Аксессуары</label>
+                      </li>
+                    </ul>
+                </fieldset>
+                <button type="submit" class="filter-button button">Показать</button>
+            </form>
+        </section>
+
+        <section class="catalog">
+            <h2 class="visually-hidden">Список средств для ухода</h2>
+            <ul class="catalog-list">
+                <li class="catalog-item">
+                    <a href="product.html">
+                        <h3>
+                            <span class="catalog-category"> Мужской набор</span>
+                            <span class="catalog-item-title">«Топовый подарочный набор»</span>
+                        </h3>
+                        <p class="catalog-item-image">
+                            <img src="static/img/set2.png" width="220" height="165" alt="Мужской набор">
+                        </p>
+                    </a>
+                    <p class="catalog-item-price">
+                        <b>1000₽</b>
+                        <button class="button" type="button">Купить</button>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <a href="product_2.html">
+                        <h3>
+                            <span class="catalog-category"> Женский набор</span>
+                            <span class="catalog-item-title">«Уход из 4-х топовых средств»</span>
+                        </h3>
+                        <p class="catalog-item-image">
+                            <img src="static/img/set1_2.jpg" width="220" height="165" alt="Женский набор">
+                        </p>
+                    </a>
+                    <p class="catalog-item-price">
+                         <b>1500₽</b>
+                        <button class="button" type="button">Купить</button>
+                    </p>
+                </li>
+            </ul>
+            <ul class="pagination-list">
+                <li class="pagination-item pagination-item-current">
+                    <a>1</a>
+                </li>
+                <li class="pagination-item">
+                    <a href="#">2</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="page-footer main-footer">
+       <div class="container">
+           <section class="footer-contacts">
+            <h2 class="visually-hidden">Как нас найти</h2>
+            <p>
+                Парикмахерская "32/34 Studio"<br>
+                Адрес: г. Москва, ул. Большая Садовая, д. 3<br>
+                Телефон: <a class="footer-phone" href="tel:+79999999999">+7 999 999-99-99</a>
+            </p>
+        </section>
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.489014846155!2d37.58989521577008!3d55.7673782805572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a397f57f39d%3A0xce12e1202daae23d!2z0JHQvtC70YzRiNCw0Y8g0KHQsNC00L7QstCw0Y8g0YPQuy4sIDMsINCc0L7RgdC60LLQsCwgMTIzMDAx!5e0!3m2!1sru!2sru!4v1617819346582!5m2!1sru!2sru"
+        width="450" height="250" allowfullscreen title="Офис компании по адресу ул. Большая Садовая 3, Москва"></iframe>
+
+        <p class="footer-copyright">
+            <b>Разработано: Cтудентками Курносова Е. и Ивачкина Т.</b>
+        </p>
+       </div>
+    </footer>
+</body>
+</html>
